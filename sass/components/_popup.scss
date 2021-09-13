@@ -12,6 +12,9 @@
     visibility: hidden;
     transition: all 0.3s;
 
+    // blur popup fit with safari
+    // use @support to fix something browser 
+
     &__content {
         width: 75%;
         background-color: $color-white;
